@@ -1,0 +1,64 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: helvetica;
+}
+body {
+    background: #333
+}
+.container {
+    background: url("../image/beach.jpg") no repeat center;
+    background-size: cover;
+    padding: 100px 40px;
+    text-align: center;
+    color: white;
+}
+.container p {
+    max-width: 600px;
+    margin: 40px auto ;
+    font-size: 15px;
+    font-weight: 300px;
+    
+}
+.email-box{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}
+.email-box i{
+    background: #2f3542;
+    width: 40px;
+    line-height: 40px;
+}
+.tbox, .btn{
+    border: none;
+    outline: none;
+}
+.tbox {
+    width: 0px;
+    transition: 0.7s;
+}
+.email-box:hover > .tbox,.btn:focus {
+    width: 260px;
+    padding: 0 10px;
+}
+.btn {
+    background: #2f3542;
+    color: white;
+    padding: 0 10px;
+    text-transform: none; 
+    cursor: pointer;
+}
+footer {
+    background-color: rgb(144, 144, 144);
+    height: 82px;
+    text-align: center;
+    
+  }
+  footer h4{
+    font-size: 20px;
+    padding: 10px;
+  }
+  footer .copy_right{
+   margin-top:20px ;
+  }
