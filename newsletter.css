@@ -7,7 +7,7 @@ body {
     background: #333
 }
 .container {
-    background: url("../image/beach.jpg") no repeat center;
+    background: url("../images/beach.jpg") no repeat center;
     background-size: cover;
     padding: 100px 40px;
     text-align: center;
